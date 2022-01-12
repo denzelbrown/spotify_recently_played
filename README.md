@@ -1,2 +1,2 @@
 # spotify_recently_played
-ETL Process in Python and scheduled using airflow that automatically loads my last 50 played most recent songs to a postgres database locally
+This is a Data Engineering project in which I authenticate to the spotify API, extract some data from recently played songs from the last 24 hours, transform them into a pandas data frame and then load the table into a postgres database. 
